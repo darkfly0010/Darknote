@@ -10,4 +10,45 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="darkfly0010.darknote.Screen1">
 
+    <Button
+        android:text=""
+        android:background="@drawable/sinup1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:id="@+id/et2"
+        android:layout_above="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="92dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et1"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/et2"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Forget Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:textSize="16dp"
+        android:id="@+id/tv1" />
 </RelativeLayout>
